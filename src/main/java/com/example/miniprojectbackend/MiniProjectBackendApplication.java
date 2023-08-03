@@ -19,16 +19,16 @@ public class MiniProjectBackendApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		Employee employee = new Employee();
-		employee.setFirstName("Lam");
-		employee.setLastName("Hung");
-		employee.setEmailId("hung@gmail.com");
-		employeeRepository.save(employee);
-
-		Employee employee1 = new Employee();
-		employee1.setFirstName("Tran");
-		employee1.setLastName("Tuan");
-		employee1.setEmailId("tuan@gmail.com");
-		employeeRepository.save(employee1);
+//		Employee employee = new Employee();
+//		employee.setFirstName("Lam");
+//		employee.setLastName("Hung");
+//		employee.setEmailId("hung@gmail.com");
+//		employeeRepository.save(employee);
+//
+//		Employee employee1 = new Employee();
+//		employee1.setFirstName("Tran");
+//		employee1.setLastName("Tuan");
+//		employee1.setEmailId("tuan@gmail.com");
+//		employeeRepository.save(employee1);
 	}
 }
