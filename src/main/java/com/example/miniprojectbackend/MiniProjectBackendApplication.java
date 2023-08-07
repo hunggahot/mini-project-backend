@@ -13,7 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @OpenAPIDefinition(
 		info = @Info(title = "Employees API", version = "1.0.0"),
-		servers = {@Server(url = "http://localhost:8080")})
+		servers = {@Server(url = "http://miniproject-env.eba-4m29msi8.ap-southeast-2.elasticbeanstalk.com")})
 public class MiniProjectBackendApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
